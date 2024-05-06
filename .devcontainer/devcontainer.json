@@ -1,0 +1,8 @@
+{
+    "name": "nvidia-cuda",
+    "image": "ghcr.io/ulfsoft-harbour/cuda/sdk-vscode:11.6.0",
+    "runArgs": [
+        "--gpus=all",
+    ],
+    "remoteUser": "vscode",
+}
