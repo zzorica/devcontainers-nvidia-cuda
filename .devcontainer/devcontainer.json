@@ -2,8 +2,6 @@
     "name": "nvidia-cuda",
     "image": "nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04",
     "runArgs": [
-        "--gpus=all",
-        "blabla",
-        "--runtime=nvidia"
+        "--gpus=all"
     ]
 }
